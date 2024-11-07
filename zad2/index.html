@@ -13,53 +13,55 @@
     <form>
         <div class="form-row">
             <div class="form-group">
-                <label for="first-name">First name</label>
+                <span style = "color: #ff6600">First name</span>
                 <input type="text" id="first-name" name="first-name" placeholder="Jan">
             </div>
             <div class="form-group">
-                <label for="last-name">Last name</label>
+                <span style = "color: #ff6600">Last name</span>
                 <input type="text" id="last-name" name="last-name" placeholder="Kowalski">
             </div>
         </div>
 
         <div class="form-row">
             <div class="form-group">
-                <label for="email">E-mail</label>
+                <span style = "color: #ff6600">E-mail</span>
                 <input type="email" id="email" name="email" placeholder="jk@gamil.com">
             </div>
             <div class="form-group">
-                <label for="phone">Phone</label>
+                <span style = "color: #ff6600">Phone</span>
                 <input type="text" id="phone" name="phone" placeholder="505 505 505">
             </div>
             <div class="form-group">
-                <label for="dob">Date of birth</label>
+                <span style = "color: #ff6600">Date of birth</span>
                 <input type="date" id="dob" name="dob">
             </div>
         </div>
-
-        <label for="gender">Gender</label>
+        <br>
+        <span style = "color: #ff6600">Gender</span><br>
         <select id="gender" name="gender">
             <option value="">Select...</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
-        </select>
-
-        <p>What are you looking for</p>
-        <label><input type="radio" name="job" value="software-engineer"> Software Engineer</label> 
-        <label><input type="radio" name="job" value="ux-designer"> UX Designer</label>
-        <label><input type="radio" name="job" value="analytics-specialist"> Analytics Specialist</label>
-        <label><input type="radio" name="job" value="project-manager"> Project Manager</label>
-
-        <p>Which programming languages do you know?</p>
-        <label><input type="checkbox" name="language" value="java"> Java</label>
-        <label><input type="checkbox" name="language" value="javascript"> Javascript</label>
-        <label><input type="checkbox" name="language" value="csharp"> C#</label>
-        <label><input type="checkbox" name="language" value="kotlin"> Kotlin</label>
-        <label><input type="checkbox" name="language" value="python"> Python</label>
-        <label><input type="checkbox" name="language" value="scala"> Scala</label>
-
-        <label for="message">Message</label>
+        </select><br><br>
+        <span style = "color: #ff6600">What are you looking for?</span><br>
+        <div class="label-row">
+            <label><input type="radio" name="job" value="software-engineer"> Software Engineer</label> 
+            <label><input type="radio" name="job" value="ux-designer"> UX Designer</label>
+            <label><input type="radio" name="job" value="analytics-specialist"> Analytics Specialist</label>
+            <label><input type="radio" name="job" value="project-manager"> Project Manager</label><br><br><br>
+        </div>
+        <span style = "color: #ff6600">Which programming languages do you know?</span><br>
+        <div class="label-row">
+            <label><input type="checkbox" name="language" value="java"> Java</label>
+            <label><input type="checkbox" name="language" value="javascript"> Javascript</label>
+            <label><input type="checkbox" name="language" value="csharp"> C#</label>
+            <label><input type="checkbox" name="language" value="kotlin"> Kotlin</label>
+            <label><input type="checkbox" name="language" value="python"> Python</label>
+            <label><input type="checkbox" name="language" value="scala"> Scala</label><br>
+            <br><br>
+        </div>
+        <span style = "color: #ff6600">Message</span><br><br>
         <textarea id="message" name="message" placeholder="Type your message"></textarea>
 
         <div class="buttons">
