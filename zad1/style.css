@@ -84,3 +84,15 @@ h1{
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
 }
+.bottom{
+    width: 400px;           
+    height: 40px;          
+    background-color: #DEB887;
+    border-bottom-left-radius:60px;
+    border-bottom-right-radius: 60px;
+    border-top: 10px solid;
+    border-top-color: #D3A15F; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
