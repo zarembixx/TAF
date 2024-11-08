@@ -91,6 +91,6 @@ button[type="submit"] {
 }
 .label-row {
     display: flex;
-    justify-content: space-between; /* Równe odstępy między napisami */
-    width: 100%; /* Rozciąga wiersz na całą szerokość kontenera */
+    justify-content: space-between; 
+    width: 100%; 
 }
